@@ -2,6 +2,21 @@
 
 This extension provides simple commands to insert incrementing numbers into your text using multiple cursors.
 
+> For creating, and using multiple cursors, see the [Visual Studio Code documentation](https://code.visualstudio.com/docs/editor/codebasics#_multiple-selections-multicursor).
+
+## Usage
+
+Create multiple cursors in your text, then run one of the following commands:
+
+- `increment-extension.increment`
+
+  - Specify the starting number, increment value, and a [c printf-style format string](https://cplusplus.com/reference/cstdio/printf/).
+
+- `increment-extension.increment-indexed-0`
+- `increment-extension.increment-indexed-1`
+
+The commands will insert an incrementing number at each cursor position, in order of selection.
+
 ## Features
 
 - `increment-extension.increment` (Increment: Customizable Increment)
